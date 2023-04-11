@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="175.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tcc.esucri.library.controller.modal.AutoresModalController">
+   <children>
+      <TextField fx:id="txtNome" layoutX="86.0" layoutY="55.0" prefHeight="25.0" prefWidth="288.0" />
+      <Label layoutX="86.0" layoutY="38.0" text="Nome:" />
+      <Button layoutX="155.0" layoutY="124.0" mnemonicParsing="false" onAction="#save" prefWidth="70.0" text="Salvar" />
+      <Button layoutX="235.0" layoutY="124.0" mnemonicParsing="false" onAction="#cancel" prefWidth="70.0" text="Cancelar" />
+   </children>
+</AnchorPane>

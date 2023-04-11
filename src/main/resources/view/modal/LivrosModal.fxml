@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="226.0" prefWidth="460.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="tcc.esucri.library.controller.modal.LivrosModalController">
+   <children>
+      <TextField fx:id="txtTitulo" layoutX="86.0" layoutY="55.0" prefHeight="25.0" prefWidth="288.0" />
+      <Label layoutX="86.0" layoutY="38.0" text="Título:" />
+      <Button layoutX="155.0" layoutY="174.0" mnemonicParsing="false" onAction="#save" prefWidth="70.0" text="Salvar" />
+      <Button layoutX="235.0" layoutY="174.0" mnemonicParsing="false" onAction="#cancel" prefWidth="70.0" text="Cancelar" />
+      <ComboBox fx:id="comboAutor" layoutX="86.0" layoutY="113.0" prefHeight="25.0" prefWidth="288.0" promptText="Selecione o autor..." />
+      <Label layoutX="86.0" layoutY="98.0" text="Autor:" />
+   </children>
+</AnchorPane>
